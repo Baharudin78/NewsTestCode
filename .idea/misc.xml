@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/bg_edit_search.xml" value="0.2065" />
+        <entry key="app/src/main/res/drawable/ic_data.xml" value="0.1785" />
+        <entry key="app/src/main/res/drawable/ic_image_slider.xml" value="0.1785" />
+        <entry key="app/src/main/res/drawable/ic_imagess.xml" value="0.1785" />
+        <entry key="app/src/main/res/drawable/ic_klinik.xml" value="0.1785" />
+        <entry key="app/src/main/res/drawable/ic_mediplus_logo.xml" value="0.1785" />
+        <entry key="app/src/main/res/drawable/ic_menu2.xml" value="0.1785" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/image_slider.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/item_berita.xml" value="0.19202898550724637" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
