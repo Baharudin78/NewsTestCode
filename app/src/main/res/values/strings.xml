@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">NewsTestCode</string>
     <string name="hint_search">Cari Klinik / Rumah Sakit</string>
+    <string name="helo">Hi, Bagus</string>
+    <string name="logo">logo</string>
+    <string name="klinik_terdekat">KLINIK TERDEKAT</string>
+    <string name="riwayat">RIWAYAT</string>
+    <string name="data_scan">DATA SCAN</string>
+    <string name="notifikasi">NOTIFIKASI</string>
+    <string name="beri_nilai">BERI NILAI</string>
+    <string name="pengaturan">PENGATURAN</string>
 </resources>

@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/bg_edit_search.xml" value="0.2065" />
+        <entry key="app/src/main/res/drawable/ic_back.xml" value="0.2065" />
         <entry key="app/src/main/res/drawable/ic_data.xml" value="0.1785" />
         <entry key="app/src/main/res/drawable/ic_image_slider.xml" value="0.1785" />
         <entry key="app/src/main/res/drawable/ic_imagess.xml" value="0.1785" />
@@ -11,6 +12,8 @@
         <entry key="app/src/main/res/drawable/ic_mediplus_logo.xml" value="0.1785" />
         <entry key="app/src/main/res/drawable/ic_menu2.xml" value="0.1785" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_detail.xml" value="0.19202898550724637" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.19202898550724637" />
         <entry key="app/src/main/res/layout/image_slider.xml" value="0.1" />
         <entry key="app/src/main/res/layout/item_berita.xml" value="0.19202898550724637" />
       </map>

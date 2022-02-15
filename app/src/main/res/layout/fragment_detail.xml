@@ -2,20 +2,32 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    xmlns:tools="http://schemas.android.com/tools">
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.fragment.DetailFragment">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="Berita">
+    </com.google.android.material.appbar.MaterialToolbar>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/card"
         android:layout_width="match_parent"
         android:layout_height="152dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="21dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         app:cardCornerRadius="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@+id/materialToolbar">
 
         <ImageView
             android:id="@+id/iv_poster"
@@ -24,14 +36,13 @@
     </androidx.cardview.widget.CardView>
 
 
-
     <TextView
         android:id="@+id/tv_judul"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginEnd="16dp"
         android:layout_marginTop="14dp"
+        android:layout_marginEnd="16dp"
         android:fontFamily="@font/rubic_medium"
         android:textColor="#5A5A5A"
         android:textSize="18sp"
@@ -73,8 +84,8 @@
         android:layout_marginStart="32dp"
         android:fontFamily="@font/rubic_reguler"
         android:textSize="10sp"
+        android:textColor="#5A5A5A"
         android:layout_marginTop="6dp"
-        android:textColor="@color/abuSecondary"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_tanggal" />
 
@@ -89,5 +100,4 @@
         android:textColor="@color/blue"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_desc" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

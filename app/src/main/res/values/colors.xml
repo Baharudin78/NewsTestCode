@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="blue">#0093DD</color>
     <color name="abu">#D6D6D6</color>
+    <color name="abuSecondary">#5A5A5A</color>
 </resources>
